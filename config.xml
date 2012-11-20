@@ -14,15 +14,17 @@
 		syspdv.com.br
 	</author>
 
-	<gap:platforms>
-		<gap:platform name="android" minVersion="2.1" />
-                <gap:platform name="ios" />
-        </gap:platforms>
+       <feature name="http://api.phonegap.com/1.0/device" />
+ 
+       <preference name="phonegap-version" value="2.0.0" />
+       <preference name="orientation"      value="default" />
+       <preference name="target-device"    value="universal" />
+       <preference name="fullscreen"       value="false" />
 
-	<icon src="icon.png" gap:role="default" />
-        <Icon Src="icon_72.Png" Width="72" Height="72" />
-        <Icon Src="icon_48.Png" Width="48" Height="48" />
-        <Icon Src="icon_36.Png" Width="36" Height="36" />
+       <icon src="icon.png" gap:role="default" />
+       <Icon Src="icon_72.Png" Width="72" Height="72" />
+       <Icon Src="icon_48.Png" Width="48" Height="48" />
+       <Icon Src="icon_36.Png" Width="36" Height="36" />
 
   <gap:splash src="img/garrett_cropped2.png" />
 
