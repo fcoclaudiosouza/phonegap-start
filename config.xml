@@ -2,7 +2,7 @@
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
 	id		= "com.phonegap.getting.started"
-	version 	= "2.1.0">
+	version 	= "1.0.0">
 
 	<name>SysTouch</name>
 
@@ -16,10 +16,15 @@
 
 	<gap:platforms>
 		<gap:platform name="android" minVersion="2.1" />
-		<gap:platform name="ios" minVersion="4.1" />		
-	</gap:platforms>
+                <gap:platform name="ios" />
+        </gap:platforms>
 
 	<icon src="icon.png" gap:role="default" />
+        <Icon Src="icon_72.Png" Width="72" Height="72" />
+        <Icon Src="icon_48.Png" Width="48" Height="48" />
+        <Icon Src="icon_36.Png" Width="36" Height="36" />
+
+  <gap:splash src="img/garrett_cropped2.png" />
 
 	<feature name="http://api.phonegap.com/1.0/network"/>
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
