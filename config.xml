@@ -2,7 +2,7 @@
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
 	id		= "com.phonegap.getting.started"
-	version 	= "1.0.0">
+	version 	= "2.1.0">
 
 	<name>SysTouch</name>
 
@@ -16,7 +16,7 @@
 
 	<gap:platforms>
 		<gap:platform name="android" minVersion="2.1" />
-		<gap:platform name="iPhone" minVersion="4.1" />		
+		<gap:platform name="ios" minVersion="4.1" />		
 	</gap:platforms>
 
 	<icon src="icon.png" gap:role="default" />
