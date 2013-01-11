@@ -1,36 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns		= "http://www.w3.org/ns/widgets"
-	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		= "com.phonegap.getting.started"
-	version 	= "1.0.0">
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "com.phonegap.getting.started"
+version = "1.0.0">
 
-	<name>SysTouch</name>
+<name>SysTouch</name>
+<description>SysPDV on Touch</description>
 
-	<description>
-	</description>
+<author href="http://www.syspdv.com.br" email="leivio@casamagalhaes.com.br"> SysPdv.com.br </author>
+<gap:platforms>
+<gap:platform name="android" minVersion="2.1" />
+</gap:platforms>
 
-	<author href="http://www.syspdv.com.br"
-		email="claudior@casamagalhaes.com.br">
-		syspdv.com.br
-	</author>
+<icon src="icon.png" gap:role="default" />
+<gap:splash src="splash.png" />
+<feature name="http://api.phonegap.com/1.0/network"/>
+<feature name="http://api.phonegap.com/1.0/geolocation"/>
 
-       <feature name="http://api.phonegap.com/1.0/device" />
- 
-       <preference name="phonegap-version" value="2.0.0" />
-       <preference name="orientation"      value="portrait" />
-       <preference name="target-device"    value="universal" />
-       <preference name="fullscreen"       value="false" />
-
-       <icon src="icon.png" gap:role="default" />
-       <Icon Src="icon_72.Png" Width="72" Height="72" />
-       <Icon Src="icon_48.Png" Width="48" Height="48" />
-       <Icon Src="icon_36.Png" Width="36" Height="36" />
-
-  <gap:splash src="img/garrett_cropped2.png" />
-
-	<feature name="http://api.phonegap.com/1.0/network"/>
-	<feature name="http://api.phonegap.com/1.0/geolocation"/>
-
-	<!-- sample preference specification -->
-	<!-- <preference name="autorotate" value="false" readonly="true"/> -->
+<!-- sample preference specification -->
+<!-- <preference name="autorotate" value="false" readonly="true"/> -->
+ <preference name="fullscreen" value="true"/>
 </widget>
